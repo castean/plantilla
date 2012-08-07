@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plantilla</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<!-- slider begin -->
+	<div id="faded">
+		<ul class="rap">
+			<li class="bg1"></li>
+			<li class="bg2"></li>
+			<li class="bg3"></li>
+			<li class="bg4"></li>
+		</ul>
+		<div class="main">
+			<ul class="pagination">
+				<li><a href="#" rel="0"></a></li>
+				<li><a href="#" rel="1"></a></li>
+				<li><a href="#" rel="2"></a></li>
+				<li><a href="#" rel="3"></a></li>
+			</ul>
+		</div>
+	</div>
+<!-- slider end -->
+	<div class="main">
+		<header>
+			
+		</header>
+		<section>
+			<%= yield %>
+		</section>
+		<footer>
+			
+		</footer>
+	</div>
+</body>
+</html>
