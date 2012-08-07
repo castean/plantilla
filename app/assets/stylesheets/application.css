@@ -35,6 +35,31 @@ body {
 	line-height:18px;
 }
 
+img {border:0; vertical-align:top; text-align:left;}
+input, textarea{color:#3f3f3f; font-size:14px; border:1px solid #cccccc; line-height:22px; padding:0 0 0 5px;}
+textarea{overflow:auto;}
+
+
+a {color:#fe8a2e; outline:none; cursor:pointer;}
+a:hover {text-decoration:none;}
+
+object {outline:none;}
+fieldset {border:0;}
+ul {list-style:none;}
+table, table td {padding:0; border:none; border-collapse:collapse;}
+.fleft{ float:left;}
+.fright{ float:right;}
+.clear{ width:100%; overflow:hidden;}
+.col-1, .col-2, .col-3, .col-4, .row-box-1, .row-box-2, .row-box-3, .row-box-4{ float:left;}
+.br{ display:block;}
+/*contstant-text*/
+.bottom-none{ padding-bottom:0 !important;}
+.bg-none{ background:none !important;}
+.border-none{ border:none;}
+/**/
+
+
+
 /*--- slider begin ---*/
 
 #faded { position:relative; margin-top:145px;}
