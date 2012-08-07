@@ -24,7 +24,7 @@ body {
 	font-size:100%; 
 	color:#959595;
 	min-width:979px;
-	background:#FFF url(tial_site.gif) top center repeat-x;
+	background:#FFF url(tial_site.gif) top center repeat-x;/* opcion 2 sin background*/
 }
 
 .main {
@@ -58,17 +58,25 @@ table, table td {padding:0; border:none; border-collapse:collapse;}
 .border-none{ border:none;}
 /**/
 
-
+.main-indent-content{ position:absolute; top:625px; width:979px; z-index:444;}
 
 /*--- slider begin ---*/
-
+/* opcion 1 mostrando la imagen cortada
+ */
 #faded { position:relative; margin-top:145px;}
 #faded .rap{ height:514px;overflow: hidden;}
 .rap li{ width:100%;height:514px;}
+
+/* opcion 2 mostrando toda la imagen
+ * 
+ #faded { position:relative; margin-top:0px;}
+ #faded .rap{ height:814px;overflow: hidden;}
+ .rap li{ width:100%;height:814px;}
+*/
 .bg1{ background:url(slider_img1.jpg) center top no-repeat;}
 .bg2{ background:url(slider_img2.jpg) top center no-repeat;}
 .bg3{ background:url(slider_img3.jpg) top center no-repeat;}
-.bg4{ background:url(slider_img4.jpg) top center no-repeat;}
+.bg4{ background:url(lego2.jpg) top center no-repeat;}
 
 .rap .main{ position:relative; }
 
